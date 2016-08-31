@@ -1,4 +1,5 @@
 # AngularOffcanvasNavbar
+Conversion of the responsive bootstrap 4 offcanvas navbar from this project, https://github.com/mcdonaldp2/offcanvas-navbar , into an angular 2 component.
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.10.
 
