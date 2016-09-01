@@ -1,6 +1,21 @@
 # Angular OffCanvas Navbar
 Conversion of the responsive bootstrap 4 offcanvas navbar from this project, https://github.com/mcdonaldp2/offcanvas-navbar , into an angular 2 component.
 
+## Adding a Title or Logo
+A Title or logo can be added as input like so <br />
+For a Title:
+```html
+<offcanvas-navbar Title="This is The Title"> 
+  .....
+</offcanvas-navbar>
+``` 
+For a Logo:
+```html
+<offcanvas-navbar LogoUrl="http://placehold.it/50x50">
+...
+</offcanvas-navbar>
+```
+## Adding Content To The Navbar
 The content of the navbar is added by nesting the content between the component's tags like so:
 ```html
 <offcanvas-navbar>
@@ -9,9 +24,9 @@ The content of the navbar is added by nesting the content between the component'
 ```
 
 This component uses css from Bootstrap 4. To add bootstrap 4 css to a new angular-cli project, simply add this link to the head of your index.html file:     
-      ```html
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
-      ```
+```html
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
+```
 
 After cloning or downloading this repository, navigate to the root of the project in the command line and enter the command **npm install** to install the necessary node modules.
 
